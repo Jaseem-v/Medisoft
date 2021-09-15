@@ -1,0 +1,93 @@
+/*=================================================*/
+/*             Base start                   */
+/*=================================================*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  /*-------color----------*/
+  --color-primary: #221638;
+  --color-secondary: #fe4a55;
+  --color-teritiary: #024773;
+  /*-------color----------*/
+  /*-------font-size----------*/
+  --responsive-font: 1.83rem;
+  /*-------font-size----------*/
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: currentColor;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+}
+
+/* ---------const------------*/
+/* ----xx-----const-------xx-----*/
+/* ---------general------------*/
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 52.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 23.75em) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media only screen and (max-width: 21.25em) {
+  html {
+    font-size: 42%;
+  }
+}
+
+@media only screen and (max-width: 18.125em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  .container {
+    max-width: 132rem;
+  }
+}
+
+/* ---xxx------general-------xx-----*/
+/*=================================================*/
+/*             Base End                   */
+/*=================================================*/
