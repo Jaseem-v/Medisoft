@@ -30,6 +30,10 @@ img {
   width: 100%;
   border-radius: 12px;
 }
+
+:root {
+  --responsive-font: 1.83rem;
+}
 /* ---------const------------*/
 
 $bp-xlarge: 112.5em; //1800px
@@ -157,6 +161,10 @@ html {
   &--speciality {
     color: #848484;
     font-size: 1.6rem;
+
+    @media only screen and (max-width: $bp-xsmall) {
+      font-size: var(--responsive-font);
+    }
   }
 
   &--features {
