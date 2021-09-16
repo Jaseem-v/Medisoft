@@ -158,6 +158,10 @@ html {
   letter-spacing: -0.1px;
   margin-bottom: 2rem;
 
+  @media only screen and (max-width: $bp-xsmall) {
+    font-size: var(--responsive-font);
+  }
+
   &--speciality {
     color: #848484;
     font-size: 1.6rem;
