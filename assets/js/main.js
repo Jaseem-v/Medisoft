@@ -63,14 +63,44 @@ var swiper1 = new Swiper(".testimonial__swiper", {
     grabCursor: true,
 });
 
-   // //////////////////
-        //TABS
+// //////////////////
+//TABS
 
-        $("#tabs .nav-tabs a").click(function () {
-            var position = $(this).parent().position();
-            var width = $(this).parent().width();
-            $("#tabs .slider").css({ "left": + position.left, "width": width });
-        });
-        var actWidth = $("#tabs .nav-tabs").find(".active").parent("li").width();
-        var actPosition = $("#tabs .nav-tabs .active").position();
-        $("#tabs .slider").css({ "left": + actPosition.left, "width": actWidth });
+$("#tabs .nav-tabs a").click(function () {
+    var position = $(this).parent().position();
+    var width = $(this).parent().width();
+    $("#tabs .slider").css({ "left": + position.left, "width": width });
+});
+var actWidth = $("#tabs .nav-tabs").find(".active").parent("li").width();
+var actPosition = $("#tabs .nav-tabs .active").position();
+$("#tabs .slider").css({ "left": + actPosition.left, "width": actWidth });
+
+
+
+// ------------mobile-menu----//
+const openBtn = document.querySelector(".open-btn")
+const nav_list = document.querySelector(".navigation__list")
+const overlay = document.querySelector(".overlay")
+const navContact = document.querySelector(".nav-contact")
+
+function mobileMenu() {
+    openBtn.classList.toggle("active");
+    nav_list.classList.toggle("active")
+    overlay.classList.toggle("hidden")
+    navContact.classList.toggle("hidden")
+}
+
+openBtn.addEventListener("click", mobileMenu)
+overlay.addEventListener("click", mobileMenu)
+
+// -----xx-------mobile-menu--xx--//
+
+$(window).on('scroll', function () {
+    if ($(window).scrollTop()) {
+        $('#navbar').addClass('sticky')
+    } else {
+        $('#navbar').removeClass('sticky')
+
+    }
+
+})

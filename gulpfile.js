@@ -1,73 +1,73 @@
-// const { src, dest, watch, series } = require('gulp')
-// const sass = require('gulp-sass')(require('sass'));
-// // const prefix = require('gulp-autoprefixer');
-
-// // var prefixerOptions = {
-// //     browsers: ['last 2 versions']
-// // };
-
-// function buildStyles() {
-//     return src('assets/sass/style.scss')
-//         .pipe(sass())
-//         .pipe(dest('assets/css'))
-//         // .pipe(prefix())
-// }
-
-// function watchTask() {
-//     watch(['assets/sass/**/*.scss'], buildStyles)
-// }
-
-// exports.default = series(buildStyles, watchTask)
-
-
-
-const { src, dest, watch, series } = require('gulp');
+const { src, dest, watch, series } = require('gulp')
 const sass = require('gulp-sass')(require('sass'));
-const postcss = require('gulp-postcss');
-const cssnano = require('cssnano');
-const terser = require('gulp-terser');
-const browsersync = require('browser-sync').create();
+// const prefix = require('gulp-autoprefixer');
 
-// Sass Task
-function scssTask() {
+// var prefixerOptions = {
+//     browsers: ['last 2 versions']
+// };
+
+function buildStyles() {
     return src('assets/sass/style.scss')
         .pipe(sass())
-        .pipe(postcss([cssnano()]))
-        .pipe(dest("assets/css"));
+        .pipe(dest('assets/css'))
+        // .pipe(prefix())
 }
 
-// JavaScript Task
-function jsTask() {
-    return src('assets/js/main.js')
-        .pipe(terser())
-        .pipe(dest('dist'));
-}
-
-// Browsersync Tasks
-function browsersyncServe(cb) {
-    browsersync.init({
-        server: {
-            baseDir: '.'
-        }
-    });
-    cb();
-}
-
-function browsersyncReload(cb) {
-    browsersync.reload();
-    cb();
-}
-
-// Watch Task
 function watchTask() {
-    watch('*.html', browsersyncReload);
-    watch(['assets/sass/**/*.scss', 'assets/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
+    watch(['assets/sass/**/*.scss'], buildStyles)
 }
 
-// Default Gulp task
-exports.default = series(
-    scssTask,
-    jsTask,
-    browsersyncServe,
-    watchTask
-);
+exports.default = series(buildStyles, watchTask)
+
+
+
+// const { src, dest, watch, series } = require('gulp');
+// const sass = require('gulp-sass')(require('sass'));
+// const postcss = require('gulp-postcss');
+// const cssnano = require('cssnano');
+// const terser = require('gulp-terser');
+// const browsersync = require('browser-sync').create();
+
+// // Sass Task
+// function scssTask() {
+//     return src('assets/sass/style.scss')
+//         .pipe(sass())
+//         .pipe(postcss([cssnano()]))
+//         .pipe(dest("assets/css"));
+// }
+
+// // JavaScript Task
+// function jsTask() {
+//     return src('assets/js/main.js')
+//         .pipe(terser())
+//         .pipe(dest('dist'));
+// }
+
+// // Browsersync Tasks
+// function browsersyncServe(cb) {
+//     browsersync.init({
+//         server: {
+//             baseDir: '.'
+//         }
+//     });
+//     cb();
+// }
+
+// function browsersyncReload(cb) {
+//     browsersync.reload();
+//     cb();
+// }
+
+// // Watch Task
+// function watchTask() {
+//     watch('*.html', browsersyncReload);
+//     watch(['assets/sass/**/*.scss', 'assets/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
+// }
+
+// // Default Gulp task
+// exports.default = series(
+//     scssTask,
+//     jsTask,
+//     browsersyncServe,
+//     watchTask
+// );
