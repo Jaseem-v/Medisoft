@@ -1,20 +1,73 @@
-const { src, dest, watch, series } = require('gulp')
+// const { src, dest, watch, series } = require('gulp')
+// const sass = require('gulp-sass')(require('sass'));
+// // const prefix = require('gulp-autoprefixer');
+
+// // var prefixerOptions = {
+// //     browsers: ['last 2 versions']
+// // };
+
+// function buildStyles() {
+//     return src('assets/sass/style.scss')
+//         .pipe(sass())
+//         .pipe(dest('assets/css'))
+//         // .pipe(prefix())
+// }
+
+// function watchTask() {
+//     watch(['assets/sass/**/*.scss'], buildStyles)
+// }
+
+// exports.default = series(buildStyles, watchTask)
+
+
+
+const { src, dest, watch, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const prefix = require('gulp-autoprefixer');
+const postcss = require('gulp-postcss');
+const cssnano = require('cssnano');
+const terser = require('gulp-terser');
+const browsersync = require('browser-sync').create();
 
-var prefixerOptions = {
-    browsers: ['last 2 versions']
-};
-
-function buildStyles() {
+// Sass Task
+function scssTask() {
     return src('assets/sass/style.scss')
         .pipe(sass())
-        .pipe(dest('assets/css'))
-        .pipe(prefix())
+        .pipe(postcss([cssnano()]))
+        .pipe(dest("assets/css"));
 }
 
+// JavaScript Task
+function jsTask() {
+    return src('assets/js/main.js')
+        .pipe(terser())
+        .pipe(dest('dist'));
+}
+
+// Browsersync Tasks
+function browsersyncServe(cb) {
+    browsersync.init({
+        server: {
+            baseDir: '.'
+        }
+    });
+    cb();
+}
+
+function browsersyncReload(cb) {
+    browsersync.reload();
+    cb();
+}
+
+// Watch Task
 function watchTask() {
-    watch(['assets/sass/**/*.scss'], buildStyles)
+    watch('*.html', browsersyncReload);
+    watch(['assets/sass/**/*.scss', 'assets/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
 }
 
-exports.default = series(buildStyles, watchTask)
+// Default Gulp task
+exports.default = series(
+    scssTask,
+    jsTask,
+    browsersyncServe,
+    watchTask
+);
