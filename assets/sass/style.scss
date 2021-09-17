@@ -141,6 +141,8 @@
   }
 
   &__right-part {
+    align-items: center;
+
     img {
       width: 90%;
 
@@ -156,7 +158,7 @@
       padding: 0rem 0 8rem;
     }
     @media only screen and (max-width: $bp-xsmall) {
-      padding: 0rem 4rem 8rem;
+      padding: 0rem 2rem 8rem;
     }
   }
 
@@ -389,10 +391,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  // padding: 2rem;
   // width: 25%;
   cursor: grab;
-  height: 13vh;
+  // height: 13vh;
 
   @media only screen and (max-height: $bp-xsmall) {
     height: 30vh;
