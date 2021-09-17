@@ -488,17 +488,17 @@
   //   // height: 40rem;
   // }
 
-  &::before {
-    content: '\201d';
-    top: 60%;
-    left: 80%;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1;
-    font-family: sans-serif;
-    opacity: 0.2;
-    color: #6666;
-  }
+  // &::before {
+  //   content: '\201d';
+  //   top: 60%;
+  //   left: 80%;
+  //   position: absolute;
+  //   font-size: 20rem;
+  //   line-height: 1;
+  //   font-family: sans-serif;
+  //   opacity: 0.2;
+  //   color: #6666;
+  // }
 
   &__quotes::before {
     content: '\201d';
