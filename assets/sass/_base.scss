@@ -164,7 +164,7 @@ html {
     font-weight: 400;
     max-width: 75rem;
 
-    &--features{
+    &--features {
       color: #fff;
     }
   }
@@ -253,9 +253,25 @@ html {
     transform: translateX(0);
   }
 }
-/* -----------------------------------
-    Custom Animation For All Page
----------------------------------------*/
+
+@-webkit-keyframes headerSlideDown {
+  0% {
+    margin-top: -100px;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
+@keyframes headerSlideDown {
+  0% {
+    margin-top: -100px;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
 @-webkit-keyframes moveRight {
   to {
     opacity: 1;
@@ -270,3 +286,6 @@ html {
     transform: translateX(0);
   }
 }
+/* -----------------------------------
+    Custom Animation For All Page
+---------------------------------------*/

@@ -100,14 +100,29 @@ overlay.addEventListener("click", mobileMenu)
 // -----xx-------mobile-menu--xx--//
 
 $(window).on('scroll', function () {
-    if ($(window).scrollTop()) {
+    if ($(window).scrollTop() > 200) {
         $('#navbar').addClass('sticky')
     } else {
         $('#navbar').removeClass('sticky')
 
     }
 
+
+    // function moveUp() {
+    //     $(window).on('load', function () {
+    //         $('.move-up').css('opacity', 0);
+    //         $('.move-up').waypoint(function () {
+    //             $('.move-up').addClass('animate');
+    //         }, {
+    //             offset: '90%'
+    //         });
+    //     })
+    // }
+
+
 })
+
+
 
 /////////////////////////////////////////////////
 // aos
@@ -115,19 +130,4 @@ $(window).on('scroll', function () {
 
 AOS.init({ once: true, delay: 50 });
 
-(function (window, $,) {
 
-    function moveUp() {
-        $(window).on('load', function () {
-            $('.move-up').css('opacity', 0);
-            $('.move-up').waypoint(function () {
-                $('.move-up').addClass('animate');
-            }, {
-                offset: '90%'
-            });
-        })
-    }
-
-    moveUp()
-
-})(window, document, jQuery);
