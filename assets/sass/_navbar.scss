@@ -30,7 +30,7 @@
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    padding: 1.8rem 0;
+    padding: 2rem 0;
 
     @media only screen and (max-width: $bp-992) {
       overflow: hidden;
@@ -136,7 +136,7 @@
     }
     ul {
       position: absolute;
-      top: -78%;
+      top: -61%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 20px;
