@@ -363,10 +363,18 @@
   cursor: grab;
   height: 13vh;
 
+  @media only screen and (max-height: $bp-xsmall) {
+    height: 30vh;
+  }
+
   &__img {
     width: 100%;
     // height: 100%;
     border-radius: 0;
+
+    @media only screen and (max-height: $bp-xsmall) {
+      height: 100%;
+    }
   }
 }
 

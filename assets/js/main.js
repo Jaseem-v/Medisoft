@@ -14,10 +14,14 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4,
             spaceBetween: 40,
         },
-        1024: {
-            slidesPerView: 6,
+        990: {
+            slidesPerView: 5,
             spaceBetween: 60,
         },
+        1400: {
+            slidesPerView: 6,
+            spaceBetween: 60,
+        }
     },
     autoplay: {
         delay: 2500,

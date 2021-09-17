@@ -55,6 +55,11 @@ html {
     font-size: 50%;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  html .container {
+    max-width: 608px;
+  }
+}
 @media only screen and (max-width: 23.75em) {
   html {
     font-size: 44%;
@@ -73,11 +78,6 @@ html {
 @media only screen and (min-width: 112.5em) {
   html {
     font-size: 75%;
-  }
-}
-@media only screen and (max-height: 600px) {
-  html .container {
-    max-width: 608px;
   }
 }
 
@@ -799,9 +799,19 @@ html {
   cursor: grab;
   height: 13vh;
 }
+@media only screen and (max-height: 37.5em) {
+  .carousel {
+    height: 30vh;
+  }
+}
 .carousel__img {
   width: 100%;
   border-radius: 0;
+}
+@media only screen and (max-height: 37.5em) {
+  .carousel__img {
+    height: 100%;
+  }
 }
 
 .swiper-container {
