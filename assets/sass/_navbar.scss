@@ -30,7 +30,7 @@
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    padding: 1.2rem 0;
+    padding: 1.8rem 0;
 
     @media only screen and (max-width: $bp-small) {
       overflow: hidden;
@@ -43,10 +43,10 @@
   &__logo {
     cursor: pointer;
     position: relative;
-    padding: 1.5rem 0;
+    // padding: 1.5rem 0;
 
     img {
-      width: 14rem;
+      width: 20rem;
     }
     @media only screen and (max-width: $bp-small) {
       order: 0;
@@ -112,7 +112,6 @@
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
     }
-
   }
 
   &__menu {
@@ -132,7 +131,7 @@
     }
     ul {
       position: absolute;
-      top: 0%;
+      top: -128%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 20px;

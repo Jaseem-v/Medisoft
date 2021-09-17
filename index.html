@@ -11,8 +11,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -66,7 +67,7 @@
             <div class="container navigation__content">
                 <div class="overlay hidden"></div>
                 <a href="index.html" class="navigation__logo">
-                    <img src="assets/img/camford-logo.svg" alt="logo">
+                    <img src="assets/img/Medisoft.png" alt="logo">
                 </a>
                 <ul class="navigation__list">
                     <li class="navigation__items"> <a href="#" class="navigation__link active">Home</a></li>
@@ -102,13 +103,13 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-12 col-12 header__left-part">
+                    <div class="col-lg-6 col-md-12 col-12 header__left-part" data-aos="fade-right">
                         <h1 class="header__title">BEST MEDICAL STORE SOFTWARE</h1>
                         <h2 class="header__sub-title"> For Single Or Multiple Stores</h2>
                         <a href="#/" class="btn btn--header">Start Free trail</a>
                     </div>
 
-                    <div class="col-lg-6 col-md-12 col-12 header__right-part">
+                    <div class="col-lg-6 col-md-12 col-12 header__right-part" data-aos="fade-left">
                         <img src="assets/img/banner.png" alt="banner image" class="banner__image">
                     </div>
                 </div>
@@ -118,7 +119,7 @@
         <section class="speciality section-padding">
             <div class="container">
                 <div class=" speciality__row">
-                    <div class=" speciality__single-box">
+                    <div class=" speciality__single-box" data-aos="fade-right">
                         <div class="speciality__icon ">
                             <img src="assets/img/svg/icon 1.svg" alt="icon 1">
                         </div>
@@ -130,7 +131,7 @@
                         </p>
                         <a href="#/" class="line-btn">Read more...</a>
                     </div>
-                    <div class=" speciality__single-box">
+                    <div class=" speciality__single-box" data-aos="fade-up">
                         <div class="speciality__icon ">
                             <img src="assets/img/svg/icon 2.svg" alt="icon 2">
                         </div>
@@ -142,7 +143,7 @@
                         </p>
                         <a href="#/" class="line-btn">Read more...</a>
                     </div>
-                    <div class="speciality__single-box">
+                    <div class="speciality__single-box" data-aos="fade-left">
                         <div class="speciality__icon ">
                             <img src="assets/img/svg/icon 3.svg" alt="icon 3">
                         </div>
@@ -210,10 +211,10 @@
                             aria-labelledby="dashboard-tab">
                             <div class="dashboard">
                                 <div class="row">
-                                    <div class="col-md-6 col-12 dashboard__left-part">
+                                    <div class="col-md-6 col-12 dashboard__left-part move-left  animate">
                                         <img src="assets/img/sub-banner.png" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12 dashboard__right-part">
+                                    <div class="col-md-6 col-12 dashboard__right-part move-right  animate">
                                         <h2 class="heading__primary heading__primary--features">Dashboard</h2>
                                         <p class="paragraph  paragraph--features">
                                             MEDISOFT is a comprehensive information management solution for
@@ -236,10 +237,10 @@
                         <div class="tab-pane fade" id="sr" role="tabpanel" aria-labelledby="sr-tab">
                             <div class="dashboard">
                                 <div class="row">
-                                    <div class="col-md-6 col-12 dashboard__left-part">
+                                    <div class="col-md-6 col-12 dashboard__left-part move-left  animate">
                                         <img src="assets/img/sub-banner.png" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12 dashboard__right-part">
+                                    <div class="col-md-6 col-12 dashboard__right-part move-right  animate">
                                         <h2 class="heading__primary heading__primary--features">Sales Report</h2>
 
                                         <p class="paragraph  paragraph--features">
@@ -259,13 +260,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade " id="purchase" role="tabpanel" aria-labelledby="purchase-tab">
+                        <div class="tab-pane  fade" id="purchase" role="tabpanel" aria-labelledby="purchase-tab">
                             <div class="dashboard">
                                 <div class="row">
-                                    <div class="col-md-6 col-12 dashboard__left-part">
+                                    <div class="col-md-6 col-12 dashboard__left-part move-left  animate ">
                                         <img src="assets/img/sub-banner.png" alt="">
                                     </div>
-                                    <div class="col-md-6 col-12 dashboard__right-part">
+                                    <div class="col-md-6 col-12 dashboard__right-part move-right  animate ">
                                         <h2 class="heading__primary heading__primary--features">Purchase</h2>
                                         <p class="paragraph  paragraph--features">
                                             MEDISOFT is a comprehensive information management solution for
@@ -302,7 +303,7 @@
         <section class="about section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-6 col-12 about__left-part">
+                    <div class="col-md-12 col-lg-6 col-12 about__left-part" data-aos="fade-right">
                         <h2 class="heading__primary">About Medisoft</h2>
                         <p class="paragraph paragraph--about">MEDISOFT is a comprehensive information management
                             solution
@@ -327,7 +328,7 @@
                         <a href="#/" class="btn btn--about">Read More</a>
 
                     </div>
-                    <div class="col-md-12 col-lg-6 col-12 about__right-part">
+                    <div class="col-md-12 col-lg-6 col-12 about__right-part" data-aos="fade-left">
                         <img src="assets/img/sub-banner.png" alt="about-img">
                     </div>
                 </div>
@@ -533,6 +534,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
 
     <script src="assets/js/main.js"></script>
 </body>

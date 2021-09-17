@@ -31,6 +31,10 @@ img {
   border-radius: 12px;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 :root {
   --responsive-font: 1.83rem;
 }
@@ -93,7 +97,7 @@ html {
   border-radius: 3rem;
   font-size: 1.6rem;
   color: #fff;
-  padding: 0.4rem 2rem;
+  padding: 0.8rem 2rem;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -198,5 +202,63 @@ html {
 
   @media only screen and (max-width: $bp-xsmall) {
     padding: 8rem 1rem;
+  }
+}
+
+/*------------------------
+    Move Up Animation  
+---------------------------*/
+.move-left {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.move-left.animate {
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  transform: translateX(-100px);
+  -webkit-animation: moveLeft 0.65s ease forwards;
+  animation: moveLeft 0.65s ease forwards;
+}
+.move-right.animate {
+  -webkit-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  transform: translateX(100px);
+  -webkit-animation: moveRight 0.65s ease forwards;
+  animation: moveRight 0.65s ease forwards;
+}
+/* -----------------------------------
+    Custom Animation For All Page
+---------------------------------------*/
+@-webkit-keyframes moveLeft {
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes moveLeft {
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* -----------------------------------
+    Custom Animation For All Page
+---------------------------------------*/
+@-webkit-keyframes moveRight {
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes moveRight {
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
 }

@@ -104,3 +104,26 @@ $(window).on('scroll', function () {
     }
 
 })
+
+/////////////////////////////////////////////////
+// aos
+
+
+AOS.init({ once: true, delay: 50 });
+
+(function (window, $,) {
+
+    function moveUp() {
+        $(window).on('load', function () {
+            $('.move-up').css('opacity', 0);
+            $('.move-up').waypoint(function () {
+                $('.move-up').addClass('animate');
+            }, {
+                offset: '90%'
+            });
+        })
+    }
+
+    moveUp()
+
+})(window, document, jQuery);
