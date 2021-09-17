@@ -115,7 +115,7 @@ html {
     padding: 1.2rem 2.6rem;
     margin-top: 1rem;
   }
-  @media only screen and (max-width: $bp-small) {
+  @media only screen and (max-width: $bp-992) {
     &--nav {
       display: none;
     }
@@ -189,6 +189,7 @@ html {
   }
   &--footer {
     color: #fff;
+    line-height: 1.8;
     &:last-child {
       margin-bottom: 0;
     }
