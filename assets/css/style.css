@@ -619,6 +619,16 @@ html {
 .header__right-part img {
   width: 90%;
 }
+@media only screen and (max-width: 52.25em) {
+  .header__right-part img {
+    width: 67%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .header__right-part img {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 61.875em) {
   .header__right-part {
     padding: 0rem 0 8rem;
