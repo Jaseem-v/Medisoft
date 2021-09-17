@@ -121,6 +121,9 @@
       text-align: center;
       align-items: center;
     }
+    @media only screen and (min-width: $bp-xlarge) {
+      height: 62vh;
+    }
   }
 
   &__right-part {
