@@ -75,6 +75,11 @@ html {
   @media only screen and (min-width: $bp-xlarge) {
     font-size: 75%;
   }
+  @media only screen and (max-height: 600px) {
+    .container {
+      max-width: 608px;
+    }
+  }
 }
 
 .container {
