@@ -53,6 +53,7 @@
 
     img {
       width: 20rem;
+      border-radius: 0px;
     }
     @media only screen and (max-width: $bp-992) {
       order: 0;

@@ -128,6 +128,6 @@ $(window).on('scroll', function () {
 // aos
 
 
-AOS.init({ once: true, delay: 50 });
+AOS.init({ once: true, delay: 150 });
 
 

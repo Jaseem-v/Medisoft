@@ -327,6 +327,7 @@ html {
 }
 .navigation__logo img {
   width: 20rem;
+  border-radius: 0px;
 }
 @media only screen and (max-width: 61.875em) {
   .navigation__logo {
@@ -1073,6 +1074,7 @@ html {
 .footer__logo {
   width: 20rem;
   margin-bottom: 2rem;
+  border-radius: 0px;
 }
 .footer__hr {
   margin: 4rem 0 2rem;
