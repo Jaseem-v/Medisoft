@@ -107,8 +107,7 @@
   background-repeat: no-repeat;
   @media only screen and (max-width: $bp-992) {
     height: auto;
-  // background: rgba(#e7edf4, 0.22);
-
+    // background: rgba(#e7edf4, 0.22);
   }
 
   &__left-part,
@@ -193,7 +192,8 @@
   }
   &__single-box {
     padding: 3rem;
-    background: #f3f4f6;
+    background: #f7f7f7;
+    border-radius: 12px;
   }
 
   &__icon {
@@ -458,6 +458,7 @@
   flex: initial;
   width: 100%;
   height: 100%;
+  border-radius: 12px;
 
   // @media only screen and (max-width: $bp-small) {
   //   height: 37rem;
