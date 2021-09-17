@@ -128,7 +128,8 @@
     flex-direction: column;
     text-align: start;
     align-self: stretch;
-    height: 85vh;
+    // height: 85vh;
+    padding: 9rem 0;
     @media only screen and (max-width: $bp-992) {
       height: auto;
       padding: 8rem 1rem;
@@ -136,7 +137,7 @@
       align-items: center;
     }
     @media only screen and (min-width: $bp-xlarge) {
-      height: 62vh;
+      // height: 62vh;
     }
   }
 

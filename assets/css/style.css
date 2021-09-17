@@ -601,7 +601,7 @@ html {
   flex-direction: column;
   text-align: start;
   align-self: stretch;
-  height: 85vh;
+  padding: 9rem 0;
 }
 @media only screen and (max-width: 61.875em) {
   .header__left-part, .header__right-part {
@@ -609,11 +609,6 @@ html {
     padding: 8rem 1rem;
     text-align: center;
     align-items: center;
-  }
-}
-@media only screen and (min-width: 112.5em) {
-  .header__left-part, .header__right-part {
-    height: 62vh;
   }
 }
 .header__right-part {
