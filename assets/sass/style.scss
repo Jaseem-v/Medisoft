@@ -29,6 +29,16 @@
     }
   }
 
+  &__contact {
+    a {
+      color: #fff;
+
+      &:hover {
+        color: rgba(#fff, 0.8);
+      }
+    }
+  }
+
   &__social {
     &-item {
       margin-right: 1rem;
@@ -40,7 +50,7 @@
         color: #fff;
 
         &:hover {
-          color: #aaa;
+          color: rgba(#fff, 0.8);
         }
       }
     }
@@ -132,7 +142,7 @@
 
   &__right-part {
     img {
-      width: 100%;
+      width: 90%;
     }
 
     @media only screen and (max-width: $bp-992) {
@@ -150,10 +160,9 @@
     color: #fff;
     letter-spacing: 0px;
     margin-bottom: 1rem;
-
     font-size: 5.2rem;
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.2;
 
     @media only screen and (max-width: $bp-largest) {
       // font-size: 5.3rem;
@@ -162,7 +171,7 @@
 
   &__sub-title {
     font-size: 3.3rem;
-    line-height: 2;
+    line-height: 1.3;
     letter-spacing: 0px;
     // color: #000000;
     // text-transform: capitalize;
@@ -248,29 +257,31 @@
 
     & .nav-item {
       // margin-right: 2rem;
-      background-color: var(--color-primary);
+      // background-color: var(--color-primary);
 
       & .nav-link {
         // position: relative;
         margin-right: 0px;
         padding: 1rem 1rem;
-        font-size: 1.9rem;
+        font-size: 2rem;
         border: none;
         color: #fff;
-        font-weight: 500;
+        font-weight: 400;
 
         &:hover {
           background-color: rgba(#11d1ff, 0.55);
           border: none;
           color: #fff;
         }
-      }
-    }
 
-    .active {
-      background-color: var(--color-secondary);
-      border: none;
-      color: #fff;
+        &.active {
+          background-color: transparent;
+          border: none;
+          color: #fff;
+          font-weight: 500;
+          font-size: 2.1rem;
+        }
+      }
     }
   }
 
@@ -690,6 +701,10 @@
         line-height: 2;
       }
     }
+  }
+
+  &__nvf {
+    color: #fff;
   }
 }
 

@@ -522,6 +522,12 @@ html {
   font-size: 1.4rem;
   margin-bottom: 0;
 }
+.navbar__contact a {
+  color: #fff;
+}
+.navbar__contact a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
 .navbar__social-item {
   margin-right: 1rem;
   font-size: 1.5rem;
@@ -532,7 +538,7 @@ html {
   color: #fff;
 }
 .navbar__social-item i:hover {
-  color: #aaa;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .main-nav {
@@ -611,7 +617,7 @@ html {
   }
 }
 .header__right-part img {
-  width: 100%;
+  width: 90%;
 }
 @media only screen and (max-width: 61.875em) {
   .header__right-part {
@@ -629,11 +635,11 @@ html {
   margin-bottom: 1rem;
   font-size: 5.2rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 .header__sub-title {
   font-size: 3.3rem;
-  line-height: 2;
+  line-height: 1.3;
   letter-spacing: 0px;
   opacity: 0.77;
   margin-bottom: 2rem;
@@ -707,26 +713,25 @@ html {
     height: 7vh;
   }
 }
-#tabs .nav-tabs .nav-item {
-  background-color: var(--color-primary);
-}
 #tabs .nav-tabs .nav-item .nav-link {
   margin-right: 0px;
   padding: 1rem 1rem;
-  font-size: 1.9rem;
+  font-size: 2rem;
   border: none;
   color: #fff;
-  font-weight: 500;
+  font-weight: 400;
 }
 #tabs .nav-tabs .nav-item .nav-link:hover {
   background-color: rgba(17, 209, 255, 0.55);
   border: none;
   color: #fff;
 }
-#tabs .nav-tabs .active {
-  background-color: var(--color-secondary);
+#tabs .nav-tabs .nav-item .nav-link.active {
+  background-color: transparent;
   border: none;
   color: #fff;
+  font-weight: 500;
+  font-size: 2.1rem;
 }
 #tabs .bottom-slider {
   display: block;
@@ -1102,6 +1107,9 @@ html {
     max-width: 27rem;
     line-height: 2;
   }
+}
+.footer__nvf {
+  color: #fff;
 }
 
 /*=================================================*/
