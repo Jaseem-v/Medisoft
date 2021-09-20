@@ -191,6 +191,17 @@ html {
 .paragraph--footer:last-child {
   margin-bottom: 0;
 }
+.paragraph--icon {
+  position: relative;
+  padding-left: 3rem;
+  font-size: 1.9rem;
+}
+.paragraph--icon i {
+  position: absolute;
+  top: 6.5px;
+  left: 0;
+  color: #016fb7;
+}
 
 .section-padding {
   padding: 8rem 0rem;
@@ -814,7 +825,7 @@ html {
   }
 }
 .about__right-part {
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
