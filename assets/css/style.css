@@ -289,6 +289,36 @@ html {
 /* -----------------------------------
     Custom Animation For All Page
 ---------------------------------------*/
+.breadcrumb {
+  background-image: url("../img/bg.jpeg");
+  background-position: 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  padding: 4rem 0;
+}
+.breadcrumb::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background: #016fb7;
+  content: "";
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 0;
+}
+.breadcrumb__title {
+  z-index: 2;
+  color: #fff;
+  position: relative;
+  font-size: 3.5rem;
+}
+
 /*=================================================*/
 /*             Navigation start                     */
 /*=================================================*/
@@ -821,7 +851,8 @@ html {
 }
 
 .about__left-part {
-  padding: 3rem;
+  padding: 3rem 3rem 3rem 0;
+  height: 100%;
 }
 @media only screen and (max-width: 61.875em) {
   .about__left-part {
@@ -834,6 +865,7 @@ html {
   justify-content: center;
   align-items: center;
   align-self: stretch;
+  height: 100%;
 }
 @media only screen and (max-width: 61.875em) {
   .about__right-part {
@@ -842,6 +874,29 @@ html {
 }
 .about__right-part img {
   height: 100%;
+}
+.about__right-part--aboutpage {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.about__row2 {
+  margin-top: 1rem;
+}
+.about__row2 .about__left-part {
+  padding: 3rem;
+}
+@media only screen and (max-width: 61.875em) {
+  .about__row2 .about__left-part {
+    padding: 3rem 0rem 3rem 3rem;
+  }
+}
+.about__row2 .about__right-part {
+  padding: 2rem 2rem 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 .awards {
