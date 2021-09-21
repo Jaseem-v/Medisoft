@@ -158,6 +158,11 @@ html {
 .heading__subtitle--features {
   color: #fff;
 }
+.heading--terms {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
 
 .paragraph {
   font-size: 1.65rem;
@@ -194,11 +199,10 @@ html {
 .paragraph--icon {
   position: relative;
   padding-left: 3rem;
-  font-size: 1.9rem;
 }
 .paragraph--icon i {
   position: absolute;
-  top: 6.5px;
+  top: 5.5px;
   left: 0;
   color: #016fb7;
 }
@@ -1124,3 +1128,18 @@ html {
 /*=================================================*/
 /*             Footer  End                   */
 /*=================================================*/
+/*=================================================*/
+/*             Terms  start                   */
+/*=================================================*/
+.terms {
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+.terms__content {
+  max-width: 945px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}

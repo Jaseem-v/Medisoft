@@ -39,7 +39,7 @@
       }
     }
 
-    &:first-child{
+    &:first-child {
       margin-right: 2rem;
     }
   }
@@ -726,3 +726,20 @@
 /*=================================================*/
 /*             Footer  End                   */
 /*=================================================*/
+/*=================================================*/
+/*             Terms  start                   */
+/*=================================================*/
+
+.terms {
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+
+  &__content {
+    max-width: 945px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+  }
+}
