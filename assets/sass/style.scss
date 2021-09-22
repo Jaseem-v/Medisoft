@@ -369,7 +369,7 @@
     }
 
     &--page {
-      padding: 2rem 0rem 0rem ;
+      padding: 2rem 0rem 0rem;
 
       @media only screen and (max-width: $bp-992) {
         padding: 3rem 1rem 0rem;
@@ -774,8 +774,12 @@
   //   padding: 3rem;
   // }
 
+  @media only screen and (max-width: $bp-992) {
+    padding-top: 3rem;
+  }
+
   &__tab {
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-992) {
       margin-bottom: 3rem;
     }
     #tabs {
@@ -859,6 +863,8 @@
     }
     .heading__primary {
       text-align: start !important;
+      font-size: 3.2rem;
+      font-weight: 500;
     }
   }
 
@@ -912,7 +918,7 @@
 // payment
 
 .payment {
-  padding: 2rem 3rem;
+  padding: 4rem 3rem;
   background: #fff;
   margin-bottom: 4rem;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
@@ -929,8 +935,8 @@
   }
 
   &__input {
-    margin: 1rem 0 2rem;
-    height: 3rem;
+    margin: 1rem 0 2.5rem;
+    height: 4rem;
     width: 100%;
     font-size: 1.65rem;
     padding-left: 0.5rem;

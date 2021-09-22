@@ -3,7 +3,7 @@
 /*=================================================*/
 
 .contact {
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
 
   &__left-part {
     // padding-top: 6rem;
@@ -109,10 +109,10 @@
   }
 
   &__map {
-    margin: 1rem auto 4rem;
+    // margin: 1rem auto 4rem;
 
     &-item {
-      padding: 1rem;
+      // padding: 1rem;
       display: flex;
       justify-content: center;
       align-items: center;
