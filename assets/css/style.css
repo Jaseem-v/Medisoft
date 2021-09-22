@@ -1211,7 +1211,7 @@ html {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
 .terms__tab .nav-tabs {
-  padding: 1rem 2rem !important;
+  padding: 2rem !important;
   width: 100% !important;
   flex-direction: column;
 }
@@ -1225,6 +1225,7 @@ html {
 }
 .terms__tab .nav-item:not(:last-child) {
   border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 1rem;
 }
 .terms__tab .nav-item .nav-link {
   padding: 1rem 1rem;
