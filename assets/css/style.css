@@ -1348,7 +1348,8 @@ html {
   color: #333333;
 }
 .contact__form {
-  padding: 4rem 4rem;
+  padding: 6rem 4rem;
+  background: #f7f7fd;
 }
 .contact__info {
   border: 1px solid #f2f2f2;
@@ -1475,25 +1476,22 @@ html {
   }
 }
 .form__input {
-  display: block;
-  outline: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #cccccf;
+  border-image: none;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  font-size: 1.65rem;
+  height: 6rem;
+  margin-bottom: 2rem;
   width: 100%;
-  padding: 2.5rem 1rem;
-  outline: none;
-  font-size: 1.8rem;
-  height: 4rem;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 119, 48, 0.51);
 }
 .form__input:focus {
-  border-bottom: 0.3rem solid #28b485;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-}
-.form__input:focus:invalid {
-  border-bottom: 0.3rem solid #ff7730;
-}
-.form__input::-webkit-input-placeholder {
-  font-weight: 400;
+  outline: none;
 }
 .form__label {
   margin-top: 1rem;
@@ -1501,7 +1499,7 @@ html {
   font-size: 1.6rem;
   transform: translateY(0rem);
   transition: all 0.2s;
-  font-weight: 500;
+  font-weight: 400;
 }
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
@@ -1509,17 +1507,22 @@ html {
   transform: translateY(-4rem);
 }
 .form__text-area {
-  display: block;
-  outline: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #cccccf;
+  border-image: none;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  font-size: 1.65rem;
+  height: 6rem;
+  margin-bottom: 2rem;
   width: 100%;
+}
+.form__text-area:focus {
   outline: none;
-  font-size: 1.6rem;
-  height: 9rem;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.1);
-  text-align: left;
-  font-weight: 500;
-  padding: 1rem 1rem;
-  border: 1px solid rgba(255, 119, 48, 0.51);
 }
 
 /* -------x---contact -----------x----------*/
