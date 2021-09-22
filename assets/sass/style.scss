@@ -899,17 +899,17 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 0 6rem;
+    padding: 0 2rem;
 
-    @media only screen and (max-width: $bp-xsmall) {
-      padding: 3rem 2rem;
+    @media only screen and (max-width: $bp-992) {
+      padding: 0rem 2rem;
     }
   }
 
   &__img-part {
     padding: 4rem;
-    @media only screen and (max-width: $bp-xsmall) {
-      padding: 1rem;
+    @media only screen and (max-width: $bp-992) {
+      padding: 1rem 1rem 4rem 1rem;
     }
   }
 }
