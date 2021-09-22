@@ -807,7 +807,7 @@
 
       & .nav-link {
         padding: 1rem 1rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
         border: none;
         color: #000 !important;
         text-align: start;
@@ -840,7 +840,7 @@
           border: none;
           color: #016fb7 !important;
           font-weight: 500;
-          font-size: 2rem !important;
+          font-size: 1.8rem !important;
 
           i {
             color: #016fb7;
@@ -872,6 +872,11 @@
     @media only screen and (max-width: $bp-992) {
       flex-direction: column-reverse !important;
     }
+  }
+
+  .tab-content {
+    max-width: 77rem !important;
+    margin: auto !important;
   }
 }
 

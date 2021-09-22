@@ -1237,7 +1237,7 @@ html {
 }
 .terms__tab .nav-item .nav-link {
   padding: 1rem 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border: none;
   color: #000 !important;
   text-align: start;
@@ -1267,7 +1267,7 @@ html {
   border: none;
   color: #016fb7 !important;
   font-weight: 500;
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
 }
 .terms__tab .nav-item .nav-link.active i {
   color: #016fb7;
@@ -1293,6 +1293,10 @@ html {
   .terms__row {
     flex-direction: column-reverse !important;
   }
+}
+.terms .tab-content {
+  max-width: 77rem !important;
+  margin: auto !important;
 }
 
 .products:nth-child(odd) {
