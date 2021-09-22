@@ -371,7 +371,7 @@
     &--page {
       padding: 3rem 3rem 0rem 0;
 
-      @media only screen and (max-width: $bp-small) {
+      @media only screen and (max-width: $bp-992) {
         padding: 3rem 1rem 0rem;
       }
     }
@@ -776,7 +776,7 @@
 
   &__tab {
     @media only screen and (max-width: $bp-small) {
-      margin-top: 3rem;
+      margin-bottom: 3rem;
     }
     #tabs {
       background: #fff;

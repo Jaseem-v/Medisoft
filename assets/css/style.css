@@ -191,7 +191,7 @@ html {
 }
 .paragraph--footer {
   color: #fff;
-  line-height: 1.8;
+  line-height: 1.954;
 }
 .paragraph--footer:last-child {
   margin-bottom: 0;
@@ -862,7 +862,7 @@ html {
 .about__left-part--page {
   padding: 3rem 3rem 0rem 0;
 }
-@media only screen and (max-width: 52.25em) {
+@media only screen and (max-width: 61.875em) {
   .about__left-part--page {
     padding: 3rem 1rem 0rem;
   }
@@ -1203,7 +1203,7 @@ html {
 }
 @media only screen and (max-width: 52.25em) {
   .terms__tab {
-    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 .terms__tab #tabs {
@@ -1302,32 +1302,35 @@ html {
 .contact {
   padding-bottom: 5rem;
 }
-.contact__left-part {
-  padding-top: 6rem;
-}
 @media only screen and (max-width: 37.5em) {
   .contact__left-part {
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
   }
+}
+.contact__heading {
+  color: #414149;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+.contact__sub-heading {
+  color: #646464;
+  display: block;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.contact__form-sub-heading {
+  font-size: 2.7rem;
+  font-weight: 500;
+  margin-bottom: 3.5rem;
+  color: #333333;
+}
+.contact__form {
+  padding: 4rem 4rem;
 }
 .contact__info {
-  padding: 3rem 0;
-}
-@media only screen and (max-width: 52.25em) {
-  .contact__info {
-    padding: 1rem 0rem 3rem;
-  }
-  .contact__info:nth-child(2) {
-    padding-top: 4rem;
-  }
-}
-@media only screen and (max-width: 37.5em) {
-  .contact__info {
-    padding: 5rem 0rem 2rem;
-  }
-  .contact__info:nth-child(2) {
-    padding-top: 2rem;
-  }
+  border: 1px solid #f2f2f2;
+  padding: 6rem 4.5rem;
 }
 .contact__items {
   position: relative;
@@ -1353,18 +1356,7 @@ html {
   max-width: 70.5rem;
 }
 .contact__right-part {
-  padding: 8rem 3rem 3rem;
   position: relative;
-}
-@media only screen and (max-width: 52.25em) {
-  .contact__right-part {
-    padding: 6rem 0rem 4rem 3rem;
-  }
-}
-@media only screen and (max-width: 37.5em) {
-  .contact__right-part {
-    padding: 4rem 2rem;
-  }
 }
 .contact__form-heading {
   margin-bottom: 4rem;
