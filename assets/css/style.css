@@ -1351,6 +1351,11 @@ html {
   padding: 6rem 4rem;
   background: #f7f7fd;
 }
+@media only screen and (max-width: 61.875em) {
+  .contact__form {
+    margin-top: 6rem;
+  }
+}
 .contact__info {
   border: 1px solid #f2f2f2;
   padding: 6rem 4.5rem;
@@ -1437,8 +1442,7 @@ html {
   transform: translateX(-50%);
 }
 .contact__map-iframe {
-  width: 95%;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 .contact__map-iframe iframe {
   width: 100%;
