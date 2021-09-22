@@ -1237,7 +1237,7 @@ html {
 }
 .terms__tab .nav-item .nav-link {
   padding: 1rem 1rem;
-  font-size: 1.8rem;
+  font-size: 1.8rem !important;
   border: none;
   color: #000 !important;
   text-align: start;
@@ -1318,9 +1318,6 @@ html {
   .products__content-part {
     padding: 0rem 2rem;
   }
-}
-.products__img-part {
-  padding: 4rem;
 }
 @media only screen and (max-width: 61.875em) {
   .products__img-part {

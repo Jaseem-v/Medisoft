@@ -807,7 +807,7 @@
 
       & .nav-link {
         padding: 1rem 1rem;
-        font-size: 1.8rem;
+        font-size: 1.8rem !important;
         border: none;
         color: #000 !important;
         text-align: start;
@@ -907,7 +907,7 @@
   }
 
   &__img-part {
-    padding: 4rem;
+    // padding: 4rem;
     @media only screen and (max-width: $bp-992) {
       padding: 1rem 1rem 4rem 1rem;
     }
