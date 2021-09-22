@@ -1224,7 +1224,7 @@ html {
   width: 100%;
 }
 .terms__tab .nav-item:not(:last-child) {
-  margin-bottom: 2rem;
+  border-bottom: 1px solid #d9d9d9;
 }
 .terms__tab .nav-item .nav-link {
   padding: 1rem 1rem;
@@ -1232,18 +1232,36 @@ html {
   border: none;
   color: #000 !important;
   text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terms__tab .nav-item .nav-link i {
+  font-weight: 700;
+  z-index: 1;
+  color: #d9d9d9;
+  transition: all 0.5s ease-out;
+}
+.terms__tab .nav-item .nav-link:not(:last-child) {
+  margin: 2rem 0;
 }
 .terms__tab .nav-item .nav-link:hover {
-  background-color: rgba(1, 111, 183, 0.55) !important;
+  background-color: transparent !important;
   border: none;
-  color: #fff !important;
+  color: #016fb7 !important;
+}
+.terms__tab .nav-item .nav-link:hover i {
+  color: #016fb7;
 }
 .terms__tab .nav-item .nav-link.active {
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: #016fb7 !important;
   font-weight: 500;
   font-size: 2rem !important;
+}
+.terms__tab .nav-item .nav-link.active i {
+  color: #016fb7;
 }
 .terms__left-part {
   padding: 0 3rem 0 0;
