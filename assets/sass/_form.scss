@@ -7,7 +7,7 @@
     padding: 1rem 1rem;
   }
   &__group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     margin-left: 1rem;
 
     @media only screen and (max-width: $bp-xsmall) {
@@ -90,8 +90,8 @@
     border-style: none none solid;
     border-width: 0 0 1px;
     font-size: 1.65rem;
-    height: 6rem;
-    margin-bottom: 2rem;
+    height: 9rem;
+    margin-top: 2rem;
     width: 100%;
 
     &:focus {
