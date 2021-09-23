@@ -106,6 +106,12 @@ html {
   color: #fff;
   background: rgba(1, 111, 183, 0.9);
 }
+.btn--white {
+  background: #fff;
+  color: #016fb7;
+  margin-top: 1rem;
+  box-shadow: none;
+}
 .btn--header {
   padding: 1.5rem 2.4rem;
 }
@@ -1299,7 +1305,7 @@ html {
   }
 }
 .terms .tab-content {
-  max-width: 77rem !important;
+  max-width: 82 rem !important;
   margin: auto !important;
 }
 
