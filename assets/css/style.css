@@ -1302,11 +1302,6 @@ html {
 .products:nth-child(odd) {
   background: #f3f4f6;
 }
-@media only screen and (max-width: 52.25em) {
-  .products:nth-child(odd) .row {
-    flex-direction: column-reverse !important;
-  }
-}
 .products__content-part {
   display: flex;
   justify-content: center;
@@ -1322,6 +1317,12 @@ html {
 @media only screen and (max-width: 61.875em) {
   .products__img-part {
     padding: 1rem 1rem 4rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 61.875em) {
+  .row__purachse {
+    flex-direction: column-reverse !important;
   }
 }
 

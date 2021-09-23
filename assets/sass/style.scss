@@ -886,12 +886,6 @@
 .products {
   &:nth-child(odd) {
     background: #f3f4f6;
-
-    .row {
-      @media only screen and (max-width: $bp-small) {
-        flex-direction: column-reverse !important;
-      }
-    }
   }
 
   &__content-part {
@@ -911,6 +905,12 @@
     @media only screen and (max-width: $bp-992) {
       padding: 1rem 1rem 4rem 1rem;
     }
+  }
+}
+
+.row__purachse{
+  @media only screen and (max-width: $bp-992) {
+    flex-direction: column-reverse !important
   }
 }
 

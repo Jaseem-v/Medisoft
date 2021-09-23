@@ -1,0 +1,103 @@
+sales
+
+
+                        Medisoft screens are designed specifically to be user-friendly. With the sales module, we cover
+                        a wide range of functionalities, and we convert the manual and time-consuming tasks to simple,
+                        user-friendly tasks.
+
+
+
+                        Using the sales module, the user will be able to search for the products even without using
+                        product codes, eliminating the need to remember product codes. Users will be able to view
+                        detailed data regarding the products, including and not limited to MRP and Expiry Date.
+
+                        Users can auto-populate the Doctor Name and Patient Name from previous prescriptions and also
+                        work on multiple prescriptions at the same time on a single machine. This allows you to work on
+                        short and large prescriptions, which in turn will eliminate long waiting times for your
+                        customers.
+
+                        There are multiple built-in validations in place, such as Expiry Date & Banned Drug checks,
+                        which allow you to create an error-free bill and provide a better service for your customers.
+
+
+
+                        While generating the Sales Bill, you have the option to print/not-print. There are screens that
+                        will help identify the non-printed Sales Bills and provide the option to print them individually
+                        or as a batch.
+
+
+
+                        Our main aim is to provide you with a hassle-free system that helps you to provide better
+                        service to your customers. With that in mind, our application is designed in such a way that,
+                        you will be able to access and navigate through different screens using a mouse-free approach. -->
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                        <!-- Purchase
+
+
+                        With the Purchase Module, we strive to provide 100% error-free stock management. We provide
+                        user-friendly and automated processes, which reduces the risk of Human Error while entering the
+                        Purchase Details. We help you maximize your sales with minimal stocks.
+
+
+
+                        Using the Purchase Module, Users will be able to enter the Purchase details promptly and easily.
+                        You can enter details individually or as a batch, and even import the details into the system,
+                        eliminating manual entry. While entering the Purchase Details, Repetitive data for the current
+                        batch, or even details from the last batch e.g. MRP and Expiry date, can be auto-populated.
+
+
+
+                        Users will be able to view in-depth details regarding the Last Purchase, which will help them
+                        identify the stock available, the MRP of the last batch, etc. This allows users to compare and
+                        understand the differences between the current and previous batches and helps in making informed
+                        decisions.
+
+
+
+                        Users have the provision to generate and print out the Purchase Bill. And will also have the
+                        ability to review and edit the purchase details if necessary. We have many validations in place
+                        that could help to avoid the purchase of bad stock, such as the purchase of already expired
+                        products. You can set up your own validations such as, accepting products that only expire after
+                        a certain time period. These small but impactful features will help reduce risk and efficiently
+                        utilize the stocks.
+
+
+
+                        Our application is known for its simplicity. We have designed the application in such a way that
+                        it requires less effort to perform the menial and time-consuming tasks -->
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+                      GST Report
+
+
+                        To be a successful pharmacy, it is imperative to adhere to the rules and regulations of the
+                        Government.
+
+                        It is really difficult to keep track of all the documents that are to be submitted for the
+                        smooth operation of your establishment. MEDISOFT Reporting Module provides you with up-to-date
+                        and comprehensive reports that alleviate those concerns.
+
+
+
+
+
+                        We have several built-in reports including, but not limited to GST Reports and Reports for DRUGS
+                        Inspector. Whenever a change in the format of those reports is notified, MEDISOFT Databases are
+                        updated and you will be able to generate the updated reports without any effort. Users can not
+                        only view, and print the reports, they can generate a soft copy of the report by exporting it as
+                        Excel, which can be later used in email communications. Users can select, sort, or even
+                        re-arrange the column for the generated reports. We also support different printer
+                        configurations. Users can generate their own custom reports and we help you to identify
+                        different reports, avoiding confusion.
+
+
+
+                        MEDISOFT reduces the effort required to identify and generate reports and provide solutions that
+                        help in the smooth operation of your Pharmacy. 
