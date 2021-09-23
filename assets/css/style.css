@@ -845,9 +845,9 @@ html {
 }
 .dashboard__left-part {
   align-self: stretch;
-}
-.dashboard__left-part img {
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .dashboard__right-part {
   padding: 6rem;
