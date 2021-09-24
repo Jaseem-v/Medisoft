@@ -627,7 +627,7 @@ html {
   }
 }
 @media only screen and (max-width: 37.5em) {
-  .navbar .mobile-icon {
+  .navbar .mobile-nav-icon {
     margin-left: auto;
   }
 }
