@@ -564,6 +564,7 @@ html {
 @media only screen and (max-width: 37.5em) {
   .navbar {
     padding: 1rem 0;
+    display: none;
   }
 }
 .navbar__left-part, .navbar__social {
