@@ -114,7 +114,8 @@ html {
     box-shadow: none;
 
     &:hover {
-      transform: translateY(-3px);
+      color: #fff;
+      background: rgba($color: #016fb7, $alpha: 0.6);
     }
   }
 
