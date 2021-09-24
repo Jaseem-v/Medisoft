@@ -103,6 +103,10 @@ html {
 }
 .btn--header {
   padding: 1.5rem 2.4rem;
+  box-shadow: none;
+}
+.btn--header:hover {
+  transform: translateY(-3px);
 }
 .btn--about {
   padding: 1.2rem 2.6rem;
@@ -1087,7 +1091,7 @@ html {
 /*=================================================*/
 .footer {
   background: #1c272e;
-  background: linear-gradient(180deg, #005587 0%, #1c272e 100%);
+  background: linear-gradient(180deg, #07335d 0%, #030220 100%);
   padding: 8rem 1rem 4rem;
 }
 .footer__list {
