@@ -207,8 +207,9 @@
     font-weight: 700;
     line-height: 1.2;
 
-    @media only screen and (max-width: $bp-largest) {
+    @media only screen and (max-width: $bp-xsmall) {
       // font-size: 5.3rem;
+      font-size: 4rem;
     }
   }
 
