@@ -5,8 +5,8 @@
 // Navbar
 .navbar {
   padding: 0.5rem 0;
-  background: #016fb7;
-  color: #fff;
+  background: #f2f2f2;
+  color: #585858;
   display: flex;
   justify-content: space-between;
 
@@ -24,7 +24,7 @@
     i {
       margin-right: 1rem;
       font-size: 1.5rem;
-      color: #fff;
+      color: #585858;
       border-radius: 50%;
 
       @media only screen and (max-width: $bp-xsmall) {
@@ -34,6 +34,7 @@
     h5 {
       font-size: 1.5rem;
       margin-bottom: 0;
+      color: #585858;
 
       @media only screen and (max-width: $bp-xsmall) {
         font-size: 1.8rem;
@@ -47,10 +48,10 @@
 
   &__contact {
     a {
-      color: #fff;
+      color: #585858;
 
       &:hover {
-        color: rgba(#fff, 0.8);
+        color: rgba (#585858, 0.8);
       }
     }
 
@@ -63,14 +64,14 @@
     &-item {
       margin-right: 1rem;
       font-size: 1.5rem;
-      color: #fff;
+      color: #585858;
       cursor: pointer;
 
       i {
-        color: #fff;
+        color: #585858;
 
         &:hover {
-          color: rgba(#fff, 0.8);
+          color: rgba(#585858, 0.8);
         }
       }
     }
