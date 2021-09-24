@@ -721,7 +721,7 @@ html {
   color: #fff;
   letter-spacing: 0px;
   margin-bottom: 1rem;
-  font-size: 5.2rem;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1087,6 +1087,7 @@ html {
 /*=================================================*/
 .footer {
   background: #1c272e;
+  background: linear-gradient(180deg, #005587 0%, #1c272e 100%);
   padding: 8rem 1rem 4rem;
 }
 .footer__list {
