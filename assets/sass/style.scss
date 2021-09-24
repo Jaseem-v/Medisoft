@@ -926,6 +926,12 @@
 .products {
   &:nth-child(odd) {
     background: #f3f4f6;
+    .products__content-part {
+      padding: 0 4rem 0 0rem;
+      @media only screen and (max-width: $bp-992) {
+        padding: 0rem 2rem;
+      }
+    }
   }
 
   &__content-part {
@@ -933,7 +939,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 0 2rem;
+    padding: 0 2rem 0 4rem;
 
     @media only screen and (max-width: $bp-992) {
       padding: 0rem 2rem;

@@ -1346,12 +1346,20 @@ html {
 .products:nth-child(odd) {
   background: #f3f4f6;
 }
+.products:nth-child(odd) .products__content-part {
+  padding: 0 4rem 0 0rem;
+}
+@media only screen and (max-width: 61.875em) {
+  .products:nth-child(odd) .products__content-part {
+    padding: 0rem 2rem;
+  }
+}
 .products__content-part {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 0 2rem;
+  padding: 0 2rem 0 4rem;
 }
 @media only screen and (max-width: 61.875em) {
   .products__content-part {
