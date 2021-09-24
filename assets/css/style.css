@@ -906,7 +906,7 @@ html {
   }
 }
 .about__left-part--page {
-  padding: 2rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 4rem;
 }
 @media only screen and (max-width: 61.875em) {
   .about__left-part--page {
@@ -914,7 +914,6 @@ html {
   }
 }
 .about__right-part {
-  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
