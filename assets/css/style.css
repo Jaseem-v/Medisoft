@@ -298,8 +298,8 @@ html {
     Custom Animation For All Page
 ---------------------------------------*/
 .breadcrumb {
-  background-image: url("../img/bg.jpeg");
-  background-position: 35%;
+  background-image: url("../img/inner-bg.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -1100,7 +1100,7 @@ html {
 /*=================================================*/
 .footer {
   background: #1c272e;
-  background: linear-gradient(180deg, #104170 0%, #040312 100%);
+  background: linear-gradient(184deg, #052752 0%, #262e64 100%);
   padding: 8rem 1rem 4rem;
 }
 .footer__list {
