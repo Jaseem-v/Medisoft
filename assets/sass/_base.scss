@@ -112,10 +112,11 @@ html {
   &--header {
     padding: 1.5rem 2.4rem;
     box-shadow: none;
+    background: #084973;
 
     &:hover {
       color: #fff;
-      background: rgba($color: #016fb7, $alpha: 0.6);
+      background: rgba($color: #084973, $alpha: 0.6);
     }
   }
 
