@@ -95,20 +95,19 @@ $(window).on('scroll', function () {
 
     }
 
+});
 
-    // function moveUp() {
-    //     $(window).on('load', function () {
-    //         $('.move-up').css('opacity', 0);
-    //         $('.move-up').waypoint(function () {
-    //             $('.move-up').addClass('animate');
-    //         }, {
-    //             offset: '90%'
-    //         });
-    //     })
-    // }
-
-
-})
+var _tiltAnimation = $('.paralax-image');
+if (_tiltAnimation.length) {
+    _tiltAnimation.tilt({
+        max: 12,
+        speed: 1e3,
+        easing: 'cubic-bezier(.03,.98,.52,.99)',
+        transition: !1,
+        perspective: 1e3,
+        scale: 1
+    })
+}
 
 
 
