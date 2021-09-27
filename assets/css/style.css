@@ -102,8 +102,9 @@ html {
   box-shadow: none;
 }
 .btn--header {
-  padding: 1.3rem 2.4rem;
+  padding: 1rem 2.4rem;
   box-shadow: none;
+  margin-top: 1rem;
   background: #219bec;
 }
 .btn--header:hover {
