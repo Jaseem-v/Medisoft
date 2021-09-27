@@ -192,12 +192,13 @@ html {
 }
 
 .paragraph {
-  font-size: 1.65rem;
+  font-size: 1.64rem;
   line-height: 1.7;
   color: #2e2f31;
   font-weight: 400;
   letter-spacing: -0.1px;
   margin-bottom: 2rem;
+  text-align: justify;
 
   @media only screen and (max-width: $bp-xsmall) {
     font-size: var(--responsive-font);
@@ -205,7 +206,7 @@ html {
 
   &--speciality {
     color: #848484;
-    font-size: 1.65rem;
+    font-size: 1.64rem;
 
     @media only screen and (max-width: $bp-xsmall) {
       font-size: var(--responsive-font);

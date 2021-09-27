@@ -173,12 +173,13 @@ html {
 }
 
 .paragraph {
-  font-size: 1.65rem;
+  font-size: 1.64rem;
   line-height: 1.7;
   color: #2e2f31;
   font-weight: 400;
   letter-spacing: -0.1px;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 @media only screen and (max-width: 37.5em) {
   .paragraph {
@@ -187,7 +188,7 @@ html {
 }
 .paragraph--speciality {
   color: #848484;
-  font-size: 1.65rem;
+  font-size: 1.64rem;
 }
 @media only screen and (max-width: 37.5em) {
   .paragraph--speciality {
@@ -599,6 +600,7 @@ html {
 }
 .navbar__contact a {
   color: #585858;
+  font-weight: 400;
 }
 .navbar__contact a:hover {
   color: rgba(88, 88, 88, 0.8);
