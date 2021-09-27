@@ -173,7 +173,7 @@ html {
 }
 
 .paragraph {
-  font-size: 1.64rem;
+  font-size: 1.55rem;
   line-height: 1.7;
   color: #2e2f31;
   font-weight: 400;
@@ -188,7 +188,7 @@ html {
 }
 .paragraph--speciality {
   color: #848484;
-  font-size: 1.64rem;
+  font-size: 1.55rem;
 }
 @media only screen and (max-width: 37.5em) {
   .paragraph--speciality {
