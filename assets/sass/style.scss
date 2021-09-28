@@ -1,6 +1,65 @@
 @import 'base';
 @import 'navbar';
 
+//////////////////////////////////////////
+// scroll
+
+#scroll {
+  position: fixed;
+  right: 2rem;
+  bottom: 8rem;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  background-color: #3498db;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  border-radius: 6rem;
+  z-index: 100;
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+  }
+  &:hover {
+    background-color: #e74c3c;
+    opacity: 1;
+    filter: 'alpha(opacity=100)';
+    -ms-filter: 'alpha(opacity=100)';
+  }
+}
+
+////////////////////////////////////////////////
+//
+
+.float {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 1.6rem;
+  transform: translate(2%,-15%);
+}
+
 // ================================================
 // Navbar
 .navbar {
@@ -454,6 +513,12 @@
     @media only screen and (max-width: $bp-small) {
       display: none;
     }
+  }
+}
+
+.about--page {
+  @media only screen and (max-width: $bp-992) {
+    margin-top: 4rem;
   }
 }
 
