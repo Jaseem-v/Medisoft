@@ -565,15 +565,22 @@ html {
   right: 2rem;
   bottom: 8rem;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   background-color: #3498db;
   text-indent: -9999px;
   display: none;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  border-radius: 6rem;
   z-index: 100;
+}
+@media only screen and (max-width: 52.25em) {
+  #scroll {
+    width: 6.4rem;
+    height: 6.4rem;
+    bottom: 9rem;
+  }
 }
 #scroll span {
   position: absolute;
@@ -595,22 +602,33 @@ html {
 
 .float {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   bottom: 2rem;
   right: 2rem;
   background-color: #25d366;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 5rem;
   text-align: center;
   font-size: 3rem;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
+@media only screen and (max-width: 52.25em) {
+  .float {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+}
 
 .my-float {
   margin-top: 1.6rem;
   transform: translate(2%, -15%);
+}
+@media only screen and (max-width: 52.25em) {
+  .my-float {
+    margin-top: 2.2rem;
+  }
 }
 
 .navbar {
