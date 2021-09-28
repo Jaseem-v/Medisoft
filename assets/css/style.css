@@ -90,10 +90,34 @@ html {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.3px;
+  z-index: 1;
+  transition: 0.5s;
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+}
+.btn span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border: none;
 }
 .btn:hover {
   color: #fff;
-  background: rgba(1, 111, 183, 0.9);
+}
+.btn:hover span {
+  width: 225%;
+  height: 562.5px;
+  background-color: #221638;
+}
+.btn:active {
+  background-color: #00c4ad;
 }
 .btn--white {
   background: #fff;
@@ -106,10 +130,7 @@ html {
   box-shadow: none;
   margin-top: 1rem;
   background: #219bec;
-}
-.btn--header:hover {
-  color: #fff;
-  background: rgba(8, 73, 115, 0.6);
+  border: none;
 }
 .btn--about {
   padding: 1.2rem 2.6rem;
