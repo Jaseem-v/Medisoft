@@ -217,6 +217,10 @@ html {
   color: #016fb7;
 }
 
+.para-last-item {
+  margin-bottom: 0;
+}
+
 .section-padding {
   padding: 8rem 0rem;
 }
