@@ -568,12 +568,17 @@ html {
   width: 5rem;
   height: 5rem;
   background-color: #3498db;
-  text-indent: -9999px;
   display: none;
   -webkit-border-radius: 6rem;
   -moz-border-radius: 6rem;
   border-radius: 6rem;
   z-index: 100;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 52.25em) {
   #scroll {
@@ -581,17 +586,6 @@ html {
     height: 6.4rem;
     bottom: 9rem;
   }
-}
-#scroll span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -8px;
-  margin-top: -12px;
-  height: 0;
-  width: 0;
-  border: 8px solid transparent;
-  border-bottom-color: #ffffff;
 }
 #scroll:hover {
   background-color: rgba(52, 152, 219, 0.7);
@@ -622,6 +616,7 @@ html {
   .float {
     width: 6.4rem;
     height: 6.4rem;
+    font-size: 3.4rem;
   }
 }
 
