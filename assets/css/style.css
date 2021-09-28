@@ -915,6 +915,10 @@ html {
 }
 .about__left-part--page {
   padding: 0rem 0rem 0rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 @media only screen and (max-width: 61.875em) {
   .about__left-part--page {
