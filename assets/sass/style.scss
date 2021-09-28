@@ -36,7 +36,7 @@
     border-bottom-color: #ffffff;
   }
   &:hover {
-    background-color: #e74c3c;
+    background-color: rgba($color: #3498db, $alpha: 0.7);
     opacity: 1;
     filter: 'alpha(opacity=100)';
     -ms-filter: 'alpha(opacity=100)';
@@ -59,6 +59,11 @@
   font-size: 3rem;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+
+  &:hover {
+    color: #fff;
+    background-color: rgba(#25d366,.7);
+  }
 
   @media only screen and (max-width: $bp-small) {
     width: 6.4rem;
