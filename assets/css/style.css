@@ -1543,6 +1543,11 @@ html {
   font-size: 1.6rem;
   word-spacing: 1px;
 }
+@media only screen and (max-width: 52.25em) {
+  .contact__items {
+    font-size: 1.9rem;
+  }
+}
 .contact__items i {
   position: absolute;
   color: #016fb7;
@@ -1659,7 +1664,7 @@ html {
   border-image: none;
   border-style: none none solid;
   border-width: 0 0 1px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   height: 6rem;
   margin-bottom: 2rem;
   width: 100%;
