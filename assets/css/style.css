@@ -1527,7 +1527,12 @@ html {
 }
 .contact__info {
   border: 1px solid #f2f2f2;
-  padding: 5.8rem 4.5rem;
+  padding: 7.6rem 4.5rem 10.6rem;
+}
+@media only screen and (max-width: 61.875em) {
+  .contact__info {
+    padding: 7.6rem 4.5rem;
+  }
 }
 .contact__items {
   position: relative;
@@ -1535,14 +1540,14 @@ html {
   color: #606060;
   margin-bottom: 1.5rem;
   line-height: 1.8;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   word-spacing: 1px;
 }
 .contact__items i {
   position: absolute;
   color: #016fb7;
   font-size: 1.9rem;
-  top: 1.1rem;
+  top: 0.7rem;
   left: 0;
 }
 .contact__sub-head {
@@ -1654,7 +1659,7 @@ html {
   border-image: none;
   border-style: none none solid;
   border-width: 0 0 1px;
-  font-size: 1.65rem;
+  font-size: 1.4rem;
   height: 6rem;
   margin-bottom: 2rem;
   width: 100%;
