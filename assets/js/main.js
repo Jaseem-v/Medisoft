@@ -68,8 +68,8 @@ var swiper1 = new Swiper(".testimonial__swiper", {
 });
 
 
-
-// ------------mobile-menu----//
+/////////////////////////////////////////////////////
+// Mobile menu
 const openBtn = document.querySelector(".open-btn")
 const nav_list = document.querySelector(".navigation__list")
 const overlay = document.querySelector(".overlay")
@@ -85,7 +85,9 @@ function mobileMenu() {
 openBtn.addEventListener("click", mobileMenu)
 overlay.addEventListener("click", mobileMenu)
 
-// -----xx-------mobile-menu--xx--//
+
+///////////////////////////////////////
+// Navbar scroll
 
 $(window).on('scroll', function () {
     if ($(window).scrollTop() > 200) {
@@ -96,6 +98,9 @@ $(window).on('scroll', function () {
     }
 
 });
+
+///////////////////////////////////////////
+// Parallax Image
 
 var _tiltAnimation = $('.paralax-image');
 if (_tiltAnimation.length) {
@@ -152,8 +157,6 @@ $(function () {
 
 /////////////////////////////////////////////////
 // aos
-
-
 AOS.init({ once: true, delay: 150 });
 
 

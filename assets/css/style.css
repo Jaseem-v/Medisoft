@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*=================================================*/
-/*             Base start                   */
+/*                      Base                     */
 /*=================================================*/
 * {
   padding: 0;
@@ -41,7 +41,6 @@ main {
 
 /* ---------const------------*/
 /* ----xx-----const-------xx-----*/
-/* ---------general------------*/
 html {
   font-size: 62.5%;
 }
@@ -76,9 +75,8 @@ html {
   }
 }
 
-/* ---xxx------general-------xx-----*/
 /*=================================================*/
-/*             Base End                   */
+/*                 Buttons                       */
 /*=================================================*/
 .btn {
   background: #016fb7;
@@ -142,29 +140,20 @@ html {
   }
 }
 
-.line-btn {
-  color: #fff;
-  font-size: 2rem;
-  line-height: 2.6rem;
-  font-weight: 700;
-  letter-spacing: 0px;
-  text-align: center;
-}
-.line-btn:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-@media only screen and (max-width: 37.5em) {
-  .line-btn {
-    font-size: 2rem;
-  }
-}
-
+/*=================================================*/
+/*                 Typography                      */
+/*=================================================*/
 .heading {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
   align-items: center;
   text-align: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .heading {
+    margin-bottom: 3rem;
+  }
 }
 .heading__primary {
   color: #1c1c1c;
@@ -242,6 +231,9 @@ html {
   margin-bottom: 0;
 }
 
+/*=================================================*/
+/*                 Section-padding                 */
+/*=================================================*/
 .section-padding {
   padding: 8rem 0rem;
 }
@@ -251,9 +243,9 @@ html {
   }
 }
 
-/*------------------------
-    Move Up Animation  
----------------------------*/
+/*=================================================*/
+/*            Fetaures Tab animations              */
+/*=================================================*/
 .move-left {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -276,9 +268,6 @@ html {
   animation: moveRight 0.65s ease forwards;
 }
 
-/* -----------------------------------
-    Custom Animation For All Page
----------------------------------------*/
 @-webkit-keyframes moveLeft {
   to {
     opacity: 1;
@@ -321,9 +310,9 @@ html {
     transform: translateX(0);
   }
 }
-/* -----------------------------------
-    Custom Animation For All Page
----------------------------------------*/
+/*=================================================*/
+/*                 Breadcrumbs                     */
+/*=================================================*/
 .breadcrumb {
   background-image: url("../img/inner-bg.jpg");
   background-position: center;
@@ -332,6 +321,7 @@ html {
   position: relative;
   z-index: 0;
   padding: 4rem 0;
+  margin-bottom: 0;
 }
 .breadcrumb::before {
   position: absolute;
@@ -352,6 +342,7 @@ html {
   color: #fff;
   position: relative;
   font-size: 3.5rem;
+  margin-bottom: 0;
 }
 
 /*=================================================*/
@@ -581,6 +572,9 @@ html {
 /*=================================================*/
 /*             Navigation End                     */
 /*=================================================*/
+/*=====================================================*/
+/*                     scroll                          */
+/*=====================================================*/
 #scroll {
   position: fixed;
   right: 2rem;
@@ -615,6 +609,9 @@ html {
   -ms-filter: "alpha(opacity=100)";
 }
 
+/*=====================================================*/
+/*              Whastapp float                         */
+/*=====================================================*/
 .float {
   position: fixed;
   width: 5rem;
@@ -651,6 +648,9 @@ html {
   }
 }
 
+/*=====================================================*/
+/*                   Nav bar                           */
+/*=====================================================*/
 .navbar {
   padding: 0.5rem 0;
   background: #f2f2f2;
@@ -727,6 +727,9 @@ html {
   }
 }
 
+/*=====================================================*/
+/*                  Nav - main                         */
+/*=====================================================*/
 .main-nav {
   padding: 2.4rem 0;
 }
@@ -768,6 +771,9 @@ html {
   font-weight: 500;
 }
 
+/*=====================================================*/
+/*                    Header                         */
+/*=====================================================*/
 .header {
   width: 100%;
   height: auto;
@@ -847,6 +853,9 @@ html {
   font-weight: 400;
 }
 
+/*=====================================================*/
+/*                    Speciality                       */
+/*=====================================================*/
 .speciality__row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -880,12 +889,18 @@ html {
   font-weight: 500;
 }
 
+/*=====================================================*/
+/*                    features                         */
+/*=====================================================*/
 .features {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+/*=====================================================*/
+/*                     tabs                          */
+/*=====================================================*/
 #tabs .tab-pane {
   margin-top: 1rem;
   padding: 1.5rem;
@@ -995,6 +1010,9 @@ html {
   }
 }
 
+/*=====================================================*/
+/*                   About                         */
+/*=====================================================*/
 .about__left-part {
   padding: 3rem 3rem 3rem 0;
   height: 100%;
@@ -1062,6 +1080,9 @@ html {
   }
 }
 
+/*=====================================================*/
+/*                    clients                         */
+/*=====================================================*/
 .awards {
   padding: 8rem 3rem;
   position: relative;
@@ -1092,6 +1113,9 @@ html {
   overflow: hidden;
 }
 
+/*=====================================================*/
+/*                    Testimonial                      */
+/*=====================================================*/
 .testimonial {
   padding: 8rem 0;
   background-color: #f3f4f6;
@@ -1103,7 +1127,7 @@ html {
 }
 @media only screen and (max-width: 37.5em) {
   .testimonial__swiper {
-    padding: 2rem;
+    padding: 0 2rem;
   }
 }
 .testimonial .swiper-pagination-bullet {
@@ -1153,6 +1177,11 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+}
+@media only screen and (max-width: 37.5em) {
+  .review {
+    margin-top: 0;
+  }
 }
 .review__quotes::before {
   content: "”";
@@ -1205,7 +1234,7 @@ html {
 }
 
 /*=================================================*/
-/*             Footer  start                     */
+/*              Footer                       */
 /*=================================================*/
 .footer {
   background: #1c272e;
@@ -1214,7 +1243,7 @@ html {
 }
 .footer__list {
   display: grid;
-  grid-template-columns: 35% 25% repeat(2, 1fr);
+  grid-template-columns: 35% 30% repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   column-gap: 30px;
 }
@@ -1345,10 +1374,7 @@ html {
 }
 
 /*=================================================*/
-/*             Footer  End                   */
-/*=================================================*/
-/*=================================================*/
-/*             Terms  start                   */
+/*               Terms  & conditions               */
 /*=================================================*/
 .terms {
   background-color: #f3f4f6;
@@ -1451,6 +1477,9 @@ html {
   margin: auto !important;
 }
 
+/*=====================================================*/
+/*                    Products page                   */
+/*=====================================================*/
 .products:nth-child(odd) {
   background: #f3f4f6;
 }
@@ -1486,9 +1515,8 @@ html {
   }
 }
 
-/* ----------contact ---------------------*/
 /*=================================================*/
-/*             Contact start                         */
+/*                Contact                         */
 /*=================================================*/
 .contact {
   padding-bottom: 0rem;
@@ -1629,9 +1657,9 @@ html {
   }
 }
 
-/*=================================================*/
-/*             Contact End                         */
-/*=================================================*/
+/*=====================================================*/
+/*                 Contact Form                        */
+/*=====================================================*/
 .form {
   padding: 1rem 5rem;
 }
@@ -1704,7 +1732,9 @@ html {
   outline: none;
 }
 
-/* -------x---contact -----------x----------*/
+/*=====================================================*/
+/*                Payment vero                         */
+/*=====================================================*/
 .payment {
   padding: 4rem 3rem;
   background: #fff;

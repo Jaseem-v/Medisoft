@@ -1,3 +1,8 @@
+/*=====================================================*/
+/*                 Contact Form                        */
+/*=====================================================*/ 
+
+
 .form {
   padding: 1rem 5rem;
   @media only screen and (max-width: $bp-small) {
@@ -15,16 +20,6 @@
     }
   }
   &__input {
-    // display: block;
-    // outline: none;
-    // width: 100%;
-    // padding: 2.5rem 1rem;
-    // outline: none;
-    // font-size: 1.8rem;
-    // height: 4rem;
-    // box-shadow: 0 0.5rem 5rem rgba(#000, 0.1);
-    // border: 1px solid rgba(#ff7730, $alpha: 0.51);
-
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -42,14 +37,6 @@
     &:focus {
       outline: none;
     }
-
-    // &:focus:invalid {
-    //   border-bottom: 0.3rem solid #ff7730;
-    // }
-
-    // &::-webkit-input-placeholder {
-    //   font-weight: 400;
-    // }
   }
 
   &__label {
@@ -68,18 +55,6 @@
   }
 
   &__text-area {
-    // display: block;
-    // outline: none;
-    // width: 100%;
-    // outline: none;
-    // font-size: 1.6rem;
-    // height: 9rem;
-    // box-shadow: 0 1.5rem 4rem rgba(#000, 0.1);
-    // text-align: left;
-    // font-weight: 500;
-    // padding: 1rem 1rem;
-    // border: 1px solid rgba(#ff7730, $alpha: 0.51);
-
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;

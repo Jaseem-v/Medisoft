@@ -1,12 +1,11 @@
 /*=================================================*/
-/*             Contact start                         */
+/*                Contact                         */
 /*=================================================*/
 
 .contact {
   padding-bottom: 0rem;
 
   &__left-part {
-    // padding-top: 6rem;
     @media only screen and (max-width: $bp-xsmall) {
       padding: 1rem 0rem;
     }
@@ -43,7 +42,6 @@
   }
 
   &__info {
-    // padding: 3rem 0;
     border: 1px solid #f2f2f2;
     padding: 7.6rem 4.5rem 10.6rem;
 
@@ -84,14 +82,7 @@
   }
 
   &__right-part {
-    // padding: 2rem 3rem 3rem;
     position: relative;
-    @media only screen and (max-width: $bp-small) {
-      // padding: 6rem 0rem 4rem ;
-    }
-    @media only screen and (max-width: $bp-xsmall) {
-      // padding: 4rem 2rem;
-    }
   }
 
   &__form-heading {
@@ -117,10 +108,8 @@
   }
 
   &__map {
-    // margin: 1rem auto 4rem;
 
     &-item {
-      // padding: 1rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -154,9 +143,7 @@
       }
     }
     &-iframe {
-      // border: 1px solid  var(--color-secondary);
       width: 100%;
-      // box-shadow: 0 1rem 3rem rgba($color: #000000, $alpha: 0.2);
 
       iframe {
         width: 100%;
@@ -170,6 +157,3 @@
   }
 }
 
-/*=================================================*/
-/*             Contact End                         */
-/*=================================================*/
