@@ -850,7 +850,7 @@ html {
 }
 @media only screen and (max-width: 37.5em) {
   .header__title {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 }
 .header__sub-title {
