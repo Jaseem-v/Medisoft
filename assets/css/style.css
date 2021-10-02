@@ -1309,10 +1309,12 @@ html {
 }
 .footer__nav-list {
   list-style: none;
+  width: 100%;
 }
 .footer__nav-li {
   margin-bottom: 1.7rem;
   text-align: start;
+  width: 100%;
 }
 .footer__nav-items {
   cursor: pointer;
