@@ -42,7 +42,7 @@
 /*=====================================================*/
 /*              Whastapp float                         */
 /*=====================================================*/
-.float {
+.whatsapp-float {
   position: fixed;
   width: 5rem;
   height: 5rem;
@@ -66,16 +66,17 @@
     height: 6.4rem;
     font-size: 3.4rem;
   }
-}
 
-.my-float {
-  margin-top: 1.6rem;
-  transform: translate(2%, -15%);
-
-  @media only screen and (max-width: $bp-small) {
-    margin-top: 2.2rem;
+  &--icon{
+    margin-top: 1.6rem;
+    transform: translate(2%, -15%);
+  
+    @media only screen and (max-width: $bp-small) {
+      margin-top: 2.2rem;
+    }
   }
 }
+
 
 /*=====================================================*/
 /*                   Nav bar                           */
@@ -1004,7 +1005,7 @@
 @import 'form';
 
 /*=====================================================*/
-/*                Payment vero                         */
+/*                Payment page                         */
 /*=====================================================*/
 
 .payment {

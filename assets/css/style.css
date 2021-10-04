@@ -356,7 +356,7 @@ html {
 }
 
 /*=================================================*/
-/*             Navigation start                     */
+/*                   Navigation                    */
 /*=================================================*/
 .navigation {
   width: 100%;
@@ -579,9 +579,6 @@ html {
   }
 }
 
-/*=================================================*/
-/*             Navigation End                     */
-/*=================================================*/
 /*=====================================================*/
 /*                     scroll                          */
 /*=====================================================*/
@@ -622,7 +619,7 @@ html {
 /*=====================================================*/
 /*              Whastapp float                         */
 /*=====================================================*/
-.float {
+.whatsapp-float {
   position: fixed;
   width: 5rem;
   height: 5rem;
@@ -636,24 +633,23 @@ html {
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
-.float:hover {
+.whatsapp-float:hover {
   color: #fff;
   background-color: rgba(37, 211, 102, 0.7);
 }
 @media only screen and (max-width: 52.25em) {
-  .float {
+  .whatsapp-float {
     width: 6.4rem;
     height: 6.4rem;
     font-size: 3.4rem;
   }
 }
-
-.my-float {
+.whatsapp-float--icon {
   margin-top: 1.6rem;
   transform: translate(2%, -15%);
 }
 @media only screen and (max-width: 52.25em) {
-  .my-float {
+  .whatsapp-float--icon {
     margin-top: 2.2rem;
   }
 }
@@ -1740,7 +1736,7 @@ html {
 }
 
 /*=====================================================*/
-/*                Payment vero                         */
+/*                Payment page                         */
 /*=====================================================*/
 .payment {
   padding: 4rem 3rem;
